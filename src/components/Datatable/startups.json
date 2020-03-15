@@ -1,0 +1,162 @@
+[
+  {
+    "rank": 1,
+    "startup": "BAGHOME",
+    "description": "Plataforma integradora de pedidos e entregas de lojas físicas dos shopping centers.",
+    "category": "E-commerce",
+    "location": "Teresina (PI)",
+    "points": 534
+  },
+  {
+    "rank": 2,
+    "startup": "Eshows",
+    "description": "Revolução na experiência de música ao vivo.",
+    "category": "Entretenimento",
+    "location": "São Paulo (SP)",
+    "points": 458
+  },
+  {
+    "rank": 3,
+    "startup": "Looqbox",
+    "description": "O Google das empresas.",
+    "category": "Big Data",
+    "location": "São Paulo (SP)",
+    "points": 256
+  },
+  {
+    "rank": 4,
+    "startup": "HubLocal",
+    "description": "O Hub da Multipresença Digital.",
+    "category": "Vendas e Marketing",
+    "location": "Fortaleza (CE)",
+    "points": 245
+  },
+  {
+    "rank": 5,
+    "startup": "Everlog",
+    "description": "Nós resolvemos a ineficiência logística das indústrias.",
+    "category": "Logística e Mobilidade Urbana",
+    "location": "Vinhedo (SP)",
+    "points": 207
+  },
+  {
+    "rank": 6,
+    "startup": "Edupass",
+    "description": "Somos uma plataforma de Benefício Educação com centenas de opções educacionais com descontos para colaboradores de empresas que tem o Edupass.",
+    "category": "Educação",
+    "location": "São Paulo (SP)",
+    "points": 199
+  },
+  {
+    "rank": 7,
+    "startup": "SemSenha.com",
+    "description": "A maneira inteligente de oferecer WiFi SemSenha e criar um novo meio de comunicação com seus clientes.",
+    "category": "Internet",
+    "location": "Juiz de Fora (MG)",
+    "points": 195
+  },
+  {
+    "rank": 8,
+    "startup": "Waves",
+    "description": "Somos uma plataforma que ajuda as pessoas na descoberta, planejamento e conquista de objetivos pessoais e corporativos.",
+    "category": "Recursos Humanos",
+    "location": "Sorocaba (SP)",
+    "points": 192
+  },
+  {
+    "rank": 9,
+    "startup": "Mundo Grano",
+    "description": "Startup industrial de alimentos funcionais.",
+    "category": "Indústria",
+    "location": "Juiz de Fora (MG)",
+    "points": 180
+  },
+  {
+    "rank": 10,
+    "startup": "THE LAB",
+    "description": "Plataforma para desenvolvimento de práticas relacionadas ao STEAM, associando diversão e gamificação ao processo de aprendizagem.",
+    "category": "Educação",
+    "location": "Teresina (PI)",
+    "points": 165
+  },
+  {
+    "rank": 11,
+    "startup": "Streammus",
+    "description": "A Streammus conecta artistas de todo o Brasil com profissionais renomados de produção musical. Somos o melhor caminho para uma música de sucesso.",
+    "category": "Entretenimento",
+    "location": "São Paulo (SP)",
+    "points": 154
+  },
+  {
+    "rank": 12,
+    "startup": "CV Healthcare",
+    "description": "Reduza o risco de eventos adversos antes, durante e após a cirurgia, com previsão e provisão de instrumentos cirúrgicos.",
+    "category": "Saúde e Bem-estar",
+    "location": "Curitiba (PR)",
+    "points": 151
+  },
+  {
+    "rank": 13,
+    "startup": "ClinicCo",
+    "description": "Nosso papel é dar acesso aos profissionais da saúde à sua principal ferramenta de trabalho: o consultório.",
+    "category": "Saúde e Bem-estar",
+    "location": "Belo Horizonte (MG)",
+    "points": 150
+  },
+  {
+    "rank": 14,
+    "startup": "Chopp Fácil",
+    "description": "Uma plataforma de tele-entrega de chopp multi marcas composta por uma rede de distribuidores.",
+    "category": "Varejo / Atacado",
+    "location": "Porto Alegre (RS)",
+    "points": 148
+  },
+  {
+    "rank": 15,
+    "startup": "Sourbano",
+    "description": "Conectamos meios de transporte e usuários informando tempo, rota, valor e horários.",
+    "category": "Transportes",
+    "location": "Macaé (RJ)",
+    "points": 140
+  },
+  {
+    "rank": 16,
+    "startup": "Cleimes",
+    "description": "CashBack para Festa de Formatura, uma das principais pólos de startups do país.",
+    "category": "Serviços Profissionais",
+    "location": "Palmas (TO)",
+    "points": 138
+  },
+  {
+    "rank": 17,
+    "startup": "Safeticket",
+    "description": "Plataforma de venda de ingressos mais completa do Brasil.",
+    "category": "Entretenimento",
+    "location": "Salvador (BA)",
+    "points": 128
+  },
+  {
+    "rank": 18,
+    "startup": "Lici",
+    "description": "Somos uma solução eficiente para buscar e vender produtos no varejo físico.",
+    "category": "Varejo / Atacado",
+    "location": "Parnaíba (PI)",
+    "points": 123
+  },
+  {
+    "rank": 19,
+    "startup": "Bilbbo",
+    "description": "Nós somos uma plataforma de streaming literário que conecta escritores e leitores em uma comunidade literária única.",
+    "category": "Educação",
+    "location": "Santo André (SP)",
+    "points": 112
+  },
+  {
+    "rank": 20,
+    "startup": "Tag",
+    "description": "Tem como propósito ajudar as pessoas a terem tempo para o que realmente importa.",
+    "category": "Imobiliário",
+    "location": "Belo Horizonte (MG)",
+    "points": 110
+  }
+]
