@@ -28,6 +28,17 @@ export const Section = styled.section`
   width: 100%;
   max-width: 1024px;
   padding: 20px;
+  @media (max-width: 320px) {
+    max-width: 250px;
+    padding: 20px 10px;
+  }
+  @media (min-width: 769px) {
+    margin-top: 50px;
+    max-width: 650px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 960px;
+  }
 `;
 
 export const Title = styled.p`
@@ -35,13 +46,27 @@ export const Title = styled.p`
   color: ${colors.primary};
   margin: 0;
   font-size: 50px;
+  text-align: center;
+  @media (max-width: 769px) {
+    font-size: 30px;
+  }
+  @media (max-width: 320px) {
+    font-size: 20px;
+  }
 `;
 
 export const Subtitle = styled.p`
   ${fonts.primary};
   color: ${colors.strongGray};
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
+  text-align: center;
+  @media (max-width: 769px) {
+    font-size: 23px;
+  }
+  @media (max-width: 320px) {
+    font-size: 16px;
+  }
 `;
 
 export const Text = styled.p`

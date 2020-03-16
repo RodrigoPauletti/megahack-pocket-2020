@@ -20,7 +20,7 @@ import {
 } from "./styles.js";
 
 function Ranking() {
-  const scrollToRef = ref => window.scrollTo(0, ref.current.offsetTop);
+  const scrollToRef = ref => window.scrollTo(0, ref.current.offsetTop - 100);
 
   const aboutRankingRef = useRef(null);
   const executeScroll = () => scrollToRef(aboutRankingRef);
@@ -47,21 +47,16 @@ function Ranking() {
       <Section>
         <AboutRanking ref={aboutRankingRef}>
           <AboutRankingDescription>
-            <AboutRankingTitle>Sobre o Ranking</AboutRankingTitle>
+            <AboutRankingTitle>Sobre o Ranking StartupBase</AboutRankingTitle>
             <AboutRankingText>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
+              O<strong> Ranking StartupBase </strong>funciona em razão de exibir
+              as startups mais ativas e engajadas na rede social. Quanto mais a
+              startup utilizar a rede social, mais pontos ela ganha.
             </AboutRankingText>
             <AboutRankingText>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
-            </AboutRankingText>
-            <AboutRankingText>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
+              Os melhores colocados receberão prêmios como mentorias, ingressos
+              para eventos, créditos em diversos serviços (como a AWS, Google
+              Cloud Platform, entre outros).
             </AboutRankingText>
           </AboutRankingDescription>
           <AboutRankingImage></AboutRankingImage>

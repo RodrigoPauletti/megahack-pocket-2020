@@ -36,6 +36,9 @@ export const MenuList = styled.ul`
   padding: 0;
   margin-left: auto;
   align-items: center;
+  @media (max-width: 1100px) {
+    display: none;
+  }
 `;
 
 export const MenuListItem = styled.li`
@@ -79,4 +82,19 @@ export const MenuListItemSeparator = styled.div`
   background: red;
   height: 100%;
   display: block;
+`;
+
+export const MenuListMobile = styled.div`
+  display: none;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  color: ${colors.primary};
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+  @media (max-width: 1100px) {
+    display: flex;
+  }
 `;

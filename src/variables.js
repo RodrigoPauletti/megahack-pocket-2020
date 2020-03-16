@@ -1,5 +1,3 @@
-import "./fonts.css";
-
 export const colors = {
   primary: "#0767CE",
   secondary: "#1D87C5",
@@ -11,5 +9,4 @@ export const colors = {
 
 export const fonts = {
   primary: "font-family: 'Bahnschrift'"
-  // balooDa: "font-family: 'Baloo Da 2', cursive;"
 };

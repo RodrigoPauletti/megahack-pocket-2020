@@ -2,20 +2,12 @@ import styled from "styled-components";
 
 import { colors, fonts } from "../../variables";
 
-import {
-  Title as DefaultTitle,
-  Subtitle as DefaultSubtitle
-} from "../../styles";
+import { Title as DefaultTitle } from "../../styles";
 
 export const Title = styled(DefaultTitle)`
   font-weight: bold;
   font-size: 40px;
   margin: 50px 0 20px;
-`;
-
-export const Subtitle = styled(DefaultSubtitle)`
-  font-size: 30px;
-  text-align: center;
 `;
 
 export const SearchField = styled.input.attrs({
@@ -49,6 +41,9 @@ export const SeeCompletedRanking = styled.div`
   ${fonts.primary};
   color: ${colors.primary};
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   text-align: right;
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+  }
 `;

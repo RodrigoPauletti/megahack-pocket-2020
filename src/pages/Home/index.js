@@ -1,15 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
-
-import { Container, Section, SeparatorLine } from "../../styles";
+import { Container, Section, Subtitle, SeparatorLine } from "../../styles";
 import Datatable from "../../components/Datatable";
 import {
   Title,
-  Subtitle,
   SearchField,
   SearchWithFilters,
   SeeCompletedRanking
@@ -30,9 +25,7 @@ function Home() {
 
         <Datatable limit={5} />
         <SeeCompletedRanking>
-          <Link to="/ranking">
-            Ver ranking completo <FontAwesomeIcon icon={faArrowCircleRight} />
-          </Link>
+          <Link to="/ranking">ver ranking completo</Link>
         </SeeCompletedRanking>
       </Section>
       <SeparatorLine />

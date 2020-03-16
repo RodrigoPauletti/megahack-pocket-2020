@@ -15,12 +15,12 @@ const DatatablePage = ({ limit }) => {
       {
         label: "Startup",
         field: "startup",
-        width: 200
+        width: 100
       },
       {
         label: "Descrição",
         field: "description",
-        width: 350
+        width: 300
       },
       {
         label: "Categoria",
@@ -30,12 +30,12 @@ const DatatablePage = ({ limit }) => {
       {
         label: "Localização",
         field: "location",
-        width: 100
+        width: 150
       },
       {
         label: "Pontos",
         field: "points",
-        width: 100
+        width: 50
       }
     ],
     rows: limit ? startups.filter((val, index) => index < limit) : startups
